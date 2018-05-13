@@ -1,0 +1,13 @@
+name: shiny_word_predictor
+title: shiny_word_predictor
+username:
+account: ely-xavier
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 342047
+bundleId: 1370916
+url: https://ely-xavier.shinyapps.io/shiny_word_predictor/
+when: 1526181606.29935
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: desktop.ini|README.md

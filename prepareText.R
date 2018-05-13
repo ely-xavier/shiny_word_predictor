@@ -1,6 +1,6 @@
 prepareText <- function(text, wordCount = 350000) {
         removeProfanity <- function(text) {
-                load("data/profanitywords.RData")
+                load("Data/profanitywords.RData")
                 # Remove profanity words obtained from the 
                 # Shutterstock repo
                 # (http://github.com/shutterstock/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words)

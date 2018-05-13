@@ -2,13 +2,13 @@ suppressMessages(library(shiny))
 
 # Define UI for application that draws a histogram
 shinyUI(pageWithSidebar(
-  headerPanel("Data Science Capstone - Word Predictor"),
+  headerPanel("Word Predictor"),
         sidebarPanel(
             h3("User input:"),
             br(),
             strong(""),
-            textInput("impText", "Please type below the initial few words of your sentence:", value = "e.g., Ely, glad to see")
-    ),
+            textInput("impText", "Please type below the initial few words of your sentence:", value = "e.g., Ely, glad to see"),
+                h5("by Ely Colon")),
     
     
     mainPanel(tabsetPanel(
