@@ -7,4 +7,4 @@ SwiftKey is one of the principal players in this market. And this Data Science c
 
 The Shiny app can be found [here](https://ely-xavier.shinyapps.io/shiny_word_predictor/).
 
-The final presentation can be found here
+The final presentation can be found [here](http://rpubs.com/ely-xavier/word_predictor_final)
