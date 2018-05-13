@@ -17,10 +17,10 @@ removePattern <- function(text, pattern)
         ConvertTo(text, pattern, "")
 
 # load n-gram frequency tables
-load("data/1gramFreq.RData")
-load("data/2gramFreq.RData")
-load("data/3gramFreq.RData")
-load("data/4gramFreq.RData")
+load("Data/1gramFreq.RData")
+load("Data/2gramFreq.RData")
+load("Data/3gramFreq.RData")
+load("Data/4gramFreq.Rda")
 
-source('functions/prepareText.R')
-source('functions/predictWord.R')
+source('prepareText.R')
+source('PredictWord.R')

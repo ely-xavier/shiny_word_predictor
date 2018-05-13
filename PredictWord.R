@@ -9,7 +9,7 @@ predictWord <- function(text) {
         if (wordCount(text) >= 3) {
                 sentence <- truncateText(text, 3)
                 predWord <-
-                        fourgramFreqDF$w[fourgramFreqDF$s == sentence]
+                        t4$w[t4$s == sentence]
         }
         if (length(predWord) > 0)
                 if (nchar(predWord) > 0)
