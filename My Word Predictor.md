@@ -1,0 +1,41 @@
+Word Predictor App
+========================================================
+author: Ely Colon
+date: May 12, 2018
+autosize: true
+transition: rotate
+transition-speed: slow
+
+Overview
+========================================================
+People are spending more time on their mobile devices for email, social networking, and many other activities. But typing on mobile devices can be a painful. The following document presents a solution that is: 
+
+- Flexible
+- Efficient
+- Safe
+
+The selected algorithm for the app ("stupid backoff") offers good balance between performance and accuracy.
+
+App Interface
+========================================================
+
+The UI contains a space for the user to input the text. And on the right panel, the Shiny app returns the last three words of the phrase and the predicted word on the provided space below.
+
+Algorithm 
+========================================================
+
+"Stupid Backoff" approach was used. It works as follows:
+
+- First step: If the word is longer than three words, the algorithm caps it to three words 
+- Second step:  The algorithm performs a search to find a match
+- Third step: If it find a match, go to step 4, below. Otherwise, the user input is shortened to two words and the algorithm starts on the second step.
+- Fourth step: If it finds a match, it is returned to the user. Otherwise, the most frequent word in the corpora is returned.
+
+The Word Predictor Shiny App
+========================================================
+
+The objective was to create a data product to showcase a Natural Language Processing prediction algorithm for easy interface and balanced performance vs accuracy trade off
+
+You can find the Shiny app [here](https://ely-xavier.shinyapps.io/shiny_word_predictor/)
+
+Just write the initial words of any sentence and the app will suggest the next word.
