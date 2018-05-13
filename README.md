@@ -5,6 +5,6 @@ People spends an ever increasing amount of time on their computers, especially o
 
 SwiftKey is one of the principal players in this market. And this Data Science capston project will be done thanks to the collaborative effort between Swiftkey and Johns Hopkins University.
 
-The Shiny app can be found here[https://ely-xavier.shinyapps.io/shiny_word_predictor/].
+The Shiny app can be found [here](https://ely-xavier.shinyapps.io/shiny_word_predictor/).
 
 The final presentation can be found here
